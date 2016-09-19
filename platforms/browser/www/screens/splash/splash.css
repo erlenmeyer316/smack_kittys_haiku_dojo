@@ -1,0 +1,65 @@
+body {
+    background-image: url("/assets/img/now-oriental-bg.jpg");
+    background-size: 300px;
+    background-repeat: repeat-x repeat-y;
+}
+
+header .jumbotron {
+    background-image: url("/assets/img/wood-grain-bg.jpg");
+    background-size: 300px;
+    background-repeat: repeat-x repeat-y;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 3em !important;
+    font-family: 'chinesetakeaway';
+    letter-spacing: 5px;
+}
+
+header h1 {}
+
+.splash-avatar {
+    position: absolute;
+    top: 30em;
+    margin-top: -5em;
+    width: 99%;
+    text-align: center;
+}
+
+.splash-button {
+    position: absolute;
+    top: 35em;
+    margin-top: -5em;
+    width: 99%;
+    text-align: center;
+    z-index: -1;
+}
+
+#write-btn .btn {
+    margin-top: 1em;
+    background-image: url("/assets/img/wood-grain-bg.jpg");
+}
+
+#write-btn>a {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: none;
+    font-family: 'chinesetakeaway';
+    letter-spacing: 5px;
+}
+
+#about-btn .btn {
+    margin-top: 1em;
+    background-image: url("/assets/img/wood-grain-bg.jpg");
+}
+
+#about-btn>a {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: none;
+    font-family: 'chinesetakeaway';
+    letter-spacing: 5px;
+}

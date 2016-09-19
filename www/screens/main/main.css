@@ -1,0 +1,42 @@
+body,
+html {
+    background-image: url("/assets/img/wood-grain-bg.jpg");
+    background-size: 300px;
+    background-repeat: repeat-x repeat-y;
+}
+
+header .jumbotron,
+footer {
+    background-image: url("/assets/img/now-oriental-bg.jpg");
+    background-size: 300px;
+    background-repeat: repeat-x repeat-y;
+}
+
+header .col-sm-4 img {
+    height: 300px;
+}
+
+header .haiku-line {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'chinesetakeaway';
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 2em;
+    background-color: #f5f5f5;
+}
+
+.lineError {
+    background-color: #d9534f;
+}
+
+.lineValid {
+    background-color: #5cb85c;    
+}
